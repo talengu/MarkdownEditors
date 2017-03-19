@@ -7,7 +7,7 @@ apply plugin: 'me.tatarka.retrolambda'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    buildToolsVersion '25.0.0'
 
     defaultConfig {
         applicationId project.PACKAGE_NAME
@@ -77,7 +77,11 @@ dependencies {
     compile 'com.jakewharton:butterknife:7.0.1'
 
     //崩溃异常提示
-    debugCompile 'me.drakeet.library:crashwoodpecker:0.9.7'
+    //https://github.com/drakeet/CrashWoodpecker
+    //http://blog.csdn.net/lijinhua7602/article/details/50608853
+    // 比较厉害的崩溃异常
+    //比 Logcat 更加美观易用的异常信息接收器: CrashWoodpecker
+    //debugCompile 'me.drakeet.library:crashwoodpecker:0.9.7'
     releaseCompile 'me.drakeet.library:crashwoodpecker-do-nothing:0.9.7'
 
 

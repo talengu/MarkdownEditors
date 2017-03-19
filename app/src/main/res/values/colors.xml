@@ -23,13 +23,17 @@
     <!--<color name="colorPrimaryText">#212121</color>-->
     <!--<color name="colorSecondaryText">#727272</color>-->
     <!--<color name="ColorDivider">#B6B6B6</color>-->
-    <color name="colorPrimary">#795548</color>
-    <color name="colorPrimary66">#66795548</color>
-    <color name="colorPrimaryTransparent">#99795548</color>
-    <color name="colorPrimaryDark">#795548</color>
-    <color name="colorPrimaryDarkReal">#4D342B</color>
+    <!--talen修改开始-->
+    <!--<color name="colorPrimary">#795548</color>把795548换成445963了-->
+    <color name="colorPrimary">#445963</color>
+
+    <color name="colorPrimary66">#66445963</color>
+    <color name="colorPrimaryTransparent">#99445963</color>
+    <color name="colorPrimaryDark">#445963</color>
+    <color name="colorPrimaryDarkReal">#4D5963</color>
     <color name="colorPrimaryLight">#CFD8DC</color><!--一般用于colorPrimary为背景的文字颜色-->
-    <color name="colorAccent">#795548</color>
+    <color name="colorAccent">#445963</color>
+    <!--talen修改结束-->
     <color name="colorPrimaryText">#212121</color>
     <color name="colorSecondaryText">#727272</color>
     <color name="colorDivider">#B6B6B6</color>

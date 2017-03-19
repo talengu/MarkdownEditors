@@ -118,11 +118,12 @@ public class MainActivity extends BaseDrawerLayoutActivity {
             case R.id.menu_about:
                 AboutActivity.startAboutActivity(this);
                 return true;
-//            case R.id.menu_setting:
-//                return true;
-            case R.id.menu_update:
-                initUpdate(true);
+           case R.id.menu_settings:
+               funsettings(true);
                 return true;
+           // case R.id.menu_update:
+              //  initUpdate(true);
+            //    return true;
             case R.id.other:
                 AppContext.showSnackbar(getWindow().getDecorView(), "敬请期待");
                 return true;
@@ -151,7 +152,11 @@ public class MainActivity extends BaseDrawerLayoutActivity {
             Toast.showShort(mContext, "再按一次退出软件");
         }
     }
-
+    private void funsettings(boolean isOK) {
+        if (isOK) {
+            android.widget.Toast.makeText(application, "暂无设置", Toast.LENGTH_SHORT).show();
+        }
+    };
 
     private void initUpdate(boolean isShow) {
         PgyUpdateManager.register(MainActivity.this,

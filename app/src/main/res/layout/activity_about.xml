@@ -23,6 +23,7 @@
               tools:context=".view.EditorActivity"
 >
     <include layout="@layout/view_common_toolbar_scroll"/>
+
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -33,13 +34,14 @@
             android:layout_height="match_parent"
             android:gravity="top|center_horizontal"
             android:orientation="vertical">
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/space_30"
                 android:layout_marginTop="@dimen/space_20"
                 android:gravity="center"
-                android:src="@mipmap/ic_launcher"/>
+                android:src="@mipmap/ic_launcher" />
 
             <TextView
                 android:id="@+id/description"
@@ -51,46 +53,42 @@
                 android:layout_marginRight="20dp"
                 android:lineSpacingExtra="@dimen/space_8"
                 android:textColor="@color/c_595959"
-                android:textSize="14sp"/>
+                android:textSize="18sp" />
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/space_05"
-                android:background="@color/c_e1e1e1"/>
+                android:background="@color/c_e1e1e1" />
 
-            <TextView
-                android:id="@+id/version"
-                style="@style/about_item"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="?android:attr/selectableItemBackground"
-                android:drawablePadding="8dp"/>
+
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/space_05"
-                android:background="@color/c_e1e1e1"/>
+                android:background="@color/c_e1e1e1" />
             <!-- ================= -->
-            <TextView
-                android:id="@+id/ad_contact_me"
-                style="@style/about_item"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="?android:attr/selectableItemBackground"
-                android:drawablePadding="8dp"
-                android:text="@string/advertise_with_us"/>
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/space_05"
-                android:background="@color/c_e1e1e1"/>
-
             <TextView
                 style="@style/about_goup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:drawablePadding="@dimen/space_8"
-                android:text="@string/connect_with_us"/>
+                android:text="@string/connect_with_us" />
+
+            <TextView
+                android:id="@+id/contact_orginal"
+                style="@style/about_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                android:drawableLeft="@drawable/about_icon_email"
+                android:drawablePadding="8dp"
+                android:text="@string/connect_with_orginal" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_05"
+                android:background="@color/c_e1e1e1" />
+
 
             <TextView
                 android:id="@+id/contact_me"
@@ -100,27 +98,27 @@
                 android:background="?android:attr/selectableItemBackground"
                 android:drawableLeft="@drawable/about_icon_email"
                 android:drawablePadding="8dp"
-                android:text="@string/contact_me"/>
+                android:text="@string/contact_me" />
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/space_05"
-                android:background="@color/c_e1e1e1"/>
+                android:background="@color/c_e1e1e1" />
 
             <!--<TextView-->
-                <!--android:id="@+id/about_link"-->
-                <!--style="@style/about_item"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:background="?android:attr/selectableItemBackground"-->
-                <!--android:drawableLeft="@drawable/about_icon_link"-->
-                <!--android:drawablePadding="8dp"-->
-                <!--android:text="访问我们的网站"/>-->
+            <!--android:id="@+id/about_link"-->
+            <!--style="@style/about_item"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="?android:attr/selectableItemBackground"-->
+            <!--android:drawableLeft="@drawable/about_icon_link"-->
+            <!--android:drawablePadding="8dp"-->
+            <!--android:text="访问我们的网站"/>-->
 
             <!--<View-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="@dimen/space_05"-->
-                <!--android:background="@color/c_e1e1e1"/>-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/space_05"-->
+            <!--android:background="@color/c_e1e1e1"/>-->
 
             <TextView
                 android:id="@+id/about_github"
@@ -130,12 +128,12 @@
                 android:background="?android:attr/selectableItemBackground"
                 android:drawableLeft="@drawable/about_icon_github"
                 android:drawablePadding="8dp"
-                android:text="项目开源地址"/>
+                android:text="@string/contact_github" />
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/space_05"
-                android:background="@color/c_e1e1e1"/>
+                android:background="@color/c_e1e1e1" />
 
             <!-- ================= -->
             <LinearLayout
@@ -150,10 +148,9 @@
                     style="@style/about_item"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:drawableLeft="@drawable/about_icon_copy_right"
                     android:drawablePadding="8dp"
                     android:gravity="center"
-                    android:text="@string/copy_right"/>
+                    android:text="@string/copy_right" />
             </LinearLayout>
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>

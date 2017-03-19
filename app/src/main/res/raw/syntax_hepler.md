@@ -149,7 +149,7 @@ document.write(fib(10));
 
 插入图片示例：
 
-![Markdown](http://image.tianjimedia.com/uploadImages/2015/129/56/J63MI042Z4P8.jpg)
+![Markdown](https://avatars1.githubusercontent.com/u/10290923?v=3&s=460)
 
 给图片添加链接:
 

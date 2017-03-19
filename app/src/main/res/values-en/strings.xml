@@ -16,7 +16,7 @@
   -->
 
 <resources>
-    <string name="Description" >Description</string>
+    <!--<string name="Description" >Description</string>
     <string name="sure">sure</string>
     <string name="serverurl">test</string>
     <string name="please_enter">please input</string>
@@ -59,4 +59,13 @@
     <string name="share_md">Share md</string>
     <string name="share_png">Share png</string>
     <string name="share_text">Share text</string>
+
+    &lt;!&ndash;左边菜单&ndash;&gt;
+    <string name="title_local">Local</string>
+    <string name="title_others">Others</string>
+    <string name="title_about">About</string>
+    <string name="title_update">Update</string>
+    <string name="title_references">Reference</string>
+    <string name="title_storages">Storages</string>
+    <string name="contact_github">项目开源地址</string>-->
 </resources>

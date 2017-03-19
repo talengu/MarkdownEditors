@@ -15,7 +15,7 @@
   -->
 
 <resources>
-    <string name="app_name" translatable="false">MarkdownEditors</string>
+    <string name="app_name" translatable="false">Mditors</string>
     <!--webViewActivity相关菜单-->
     <string name="action_refresh">刷新</string>
     <string name="action_copy_url">复制链接</string>
@@ -58,15 +58,25 @@
     <string name="action_setting">设置</string>
     <string name="about">关于</string>
 
-    <string name="copy_right" translatable="false">Copyrights © 2016</string>
-    <string name="version_string" translatable="false">Version %s</string>
-    <string name="contact_me">联系我们</string>
-    <string name="connect_with_us">与我们联系</string>
-    <string name="advertise_with_us">广告联系</string>
+    <string name="copy_right" translatable="false">CopyRights © 2017</string>
+    <string name="version_string" translatable="false">V %s</string>
+    <string name="connect_with_us">联系与反馈</string>
+    <string name="connect_with_orginal">原作@shenqinci</string>
+    <string name="contact_me">本作@talengu</string>
+    <string name="contact_github">Github地址</string>
 
     <string name="share_copy_text">复制为文本</string>
     <string name="share_text">分享为文本</string>
     <string name="share_md">分享为MD文件(.md)</string>
     <string name="share_html">分享为HTML文本(.html)</string>
     <string name="share_png">分享为图片(.png)</string>
+    <!--左边菜单-->
+    <string name="title_local">本地</string>
+    <string name="title_others">其他</string>
+    <string name="title_about">关于</string>
+    <string name="title_update">检查更新</string>
+    <string name="title_references">语法参考</string>
+    <string name="title_storages">存储</string>
+    <string name="title_settings">设置</string>
+
 </resources>

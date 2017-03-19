@@ -24,6 +24,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+import ren.qinc.markdowneditors.R;
 import ren.qinc.markdowneditors.base.mvp.BasePresenter;
 import ren.qinc.markdowneditors.entity.FileBean;
 import ren.qinc.markdowneditors.utils.Check;
@@ -171,7 +172,7 @@ public class FolderManagerPresenter extends BasePresenter<IFolderManagerView> {
             File file = new File(currentPath());
             getFileList(file);
             //这里设置tab
-            if (getMvpView() != null) getMvpView().addTab("本地");//1
+            if (getMvpView() != null) getMvpView().addTab(context.getString(R.string.title_local));//1
         } else {
             callFailure(-1, "路径找不到", IFolderManagerView.CALL_GET_FILES);
         }
